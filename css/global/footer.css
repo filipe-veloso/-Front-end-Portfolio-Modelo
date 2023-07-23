@@ -1,0 +1,26 @@
+.footer-bg {
+  background-color: var(--cor-p3);
+}
+
+.footer {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}

@@ -1,0 +1,115 @@
+.manage-hero {
+  background-image: url("../../assets/portfolio/manage/image-manage-hero.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+  background-color: #111;
+  margin-top: 94px;
+  margin-bottom: 115px;
+}
+
+/*
+
+manage-descricao lado esquerdo
+
+*/
+
+.manage-box-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manage-descricao {
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+  width: 350px;
+  height: 481px;
+}
+
+.manage-descricao h2 {
+  margin-top: 48px;
+  margin-bottom: 29px;
+}
+.descricao {
+  margin-bottom: 53px;
+  font-family: "Public Sans Regular", sans-serif;
+}
+
+.prof-tecno {
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.profissao {
+  margin-bottom: 16px;
+}
+
+.manage-descricao a {
+  align-self: flex-start;
+  margin-bottom: 48px;
+  padding: 17px 60px;
+  font-size: 12px;
+  background: var(--cor-0);
+  border: 1px solid var(--cor-p3);
+
+  font-family: "Public Sans Regular", sans-serif;
+  color: var(--cor-p3);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.manage-descricao a:hover {
+  background: var(--cor-p3);
+  color: var(--cor-0);
+}
+
+/*
+manage-descricao lado direito
+*/
+
+.projeto-manage-content {
+  display: flex;
+  flex-direction: column;
+  width: 635px;
+}
+.projeto-manage-content h3 {
+  margin-bottom: 28px;
+}
+
+.projeto-manage-content p {
+  margin-bottom: 40px;
+  font-family: "Public Sans Regular", sans-serif;
+}
+.projeto-manage-content img {
+  margin-bottom: 32px;
+}
+
+/*
+Navegar entre projetos
+*/
+
+.navegacao-projetos {
+  margin-top: 32px;
+  border-top: 1px solid rgba(0, 0, 0, 0.195);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.195);
+  height: 132px;
+}
+.navegacao-projetos p {
+  color: rgba(51, 50, 61, 0.5);
+}
+
+.border-projetos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.manage-projeto-anterior {
+  background: url("../../assets/icons/arrow-left.svg") no-repeat 0px 20px;
+  padding-left: 32px;
+}
+
+.manage-projeto-posterior {
+  background: url("../../assets/icons/arrow-right.svg") no-repeat 150px 20px;
+  padding-right: 32px;
+}

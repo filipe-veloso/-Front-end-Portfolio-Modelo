@@ -1,0 +1,104 @@
+/* 
+Hero img, msg introdutoria e botao sobre mim
+*/
+
+.main-content {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../../assets/home/image-homepage-hero.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+  background-color: #111;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 357px;
+  width: 445px;
+  background: #fff;
+}
+.main-text h1 {
+  padding: 56px 28px 53px 27px;
+}
+
+/* SOBRE MIM */
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.about-content img {
+  width: 540px;
+  height: 600px;
+}
+
+.about-border {
+  margin-left: 140px;
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: left;
+}
+.about-text h2 {
+  margin-bottom: 28px;
+}
+.about-text p {
+  margin-bottom: 24px;
+}
+
+/* botao portfolio*/
+.about-text a {
+  align-self: center;
+  padding: 17px 28px;
+  font-size: 12px;
+  background: var(--cor-0);
+  border: 1px solid var(--cor-p3);
+
+  font-family: "Public Sans Regular", sans-serif;
+  color: var(--cor-p3);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.about-text a:hover {
+  background: var(--cor-p3);
+  color: var(--cor-0);
+}
+
+/* seção para entrar em contato*/
+
+.box-contato {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+.box-contato h2 {
+  width: 367px;
+}
+
+/* botao contato*/
+.box-contato a {
+  align-self: center;
+  width: 168px;
+  font-size: 12px;
+  background: var(--cor-0);
+  border: 1px solid var(--cor-p3);
+
+  font-family: "Public Sans Regular", sans-serif;
+  color: var(--cor-p3);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}

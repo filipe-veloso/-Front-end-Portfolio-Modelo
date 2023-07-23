@@ -1,0 +1,30 @@
+.font-button {
+  font: 400 12px "Public Sans Regular", sans-serif;
+  letter-spacing: 2px;
+}
+
+.font-body-1 {
+  font: 400 16px / 30px "Public Sans Regular", sans-serif;
+}
+
+.font-body-2 {
+  font: 400 15px / 30px "Public Sans Regular", sans-serif;
+}
+
+.font-heading-1 {
+  font: 700 50px / 50px "Ibarra Real Nova", serif;
+  letter-spacing: -0.45px;
+  /* H1, Ibarra Real Nova Bold, 50px, 50px Line, -0,45 Character */
+}
+
+.font-heading-2 {
+  font: 700 40px / 42px "Ibarra Real Nova", serif;
+  letter-spacing: -0.36px;
+
+  /* H2, Ibarra Real Nova Bold, 40px, 42px Line, -0,36 Character */
+}
+
+.font-heading-3 {
+  font: 400 32px / 36px "Ibarra Real Nova", serif;
+  letter-spacing: -0.29px;
+}
